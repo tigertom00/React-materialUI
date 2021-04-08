@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
-import {
-  Paper,
-  Switch,
-  Typography,
-  createMuiTheme,
-  ThemeProvider,
-  CssBaseline,
-} from '@material-ui/core';
+import { Switch, createMuiTheme, ThemeProvider } from '@material-ui/core';
 
 const DarkMode = () => {
   const [darkMode, setDarkMode] = useState(false);
